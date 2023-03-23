@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+
+}
+.slide-container{
+    position:relative;
+    width:100%
+}
+.slide img{
+width: 100%;
+position: static;
+}
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    color: black;
+    background-color: white;
+    padding: 8px 18px;
+    border-radius: 50%;
+font-size: 25px;
+font-weight: bold;
+
+}
+.next{
+    right:10px;
+}
+.prev{
+    left: 10px;
+}
+.caption{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+bottom: 0px;
+width: 100%;
+text-align: center;
+background-color: rgba(0, 0, 0, 0.5);
+padding: 15px 0px;
+}
+.slide{
+    display: none;
+}
+.log img{
+    color: rgb(247, 240, 240);
+    width: 100px;
+   border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.texts p{
+   margin-left: 10px;
+   margin-top: 10px;
+color: rgb(248, 247, 247);
+width: 100px;
+position: absolute;
+font-style: italic;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+top: 0px;
+left: 0px;
+}
